@@ -1,0 +1,29 @@
+.profile{
+	width: 50%; 
+	border-radius: 50%;
+	box-shadow: 0 0 10px 0px;	
+}
+
+.marketing h3{
+		margin-top: 20px;
+	}
+
+@media (max-width: 520px )  {
+	.jumbotron h1 {
+		font-size: 1.8em;
+	}
+
+	.jumbotron p {
+		font-size: 0.8em;
+	}
+
+	.marketing h3{
+		margin-top: 15px;
+		font-size: 1.6em;
+	}
+
+	.marketing p{
+		font-size: 1em;
+	}
+	
+}
