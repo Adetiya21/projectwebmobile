@@ -14,7 +14,7 @@
   
   <!-- Favicons -->
   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
-
+  <link rel="manifest" href="manifest.json">
   </head>
   <body>
 
@@ -34,21 +34,23 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="tentang.html">About Us</a>
+          <a class="nav-link disabled" href="#">Kategori :</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <select id="sourceSelector"></select>
+          <!-- <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a> -->
+          <!-- <div class="dropdown-menu" aria-labelledby="dropdown01">
             <a class="dropdown-item" href="kategori.html">Entertainment</a>
             <a class="dropdown-item" href="kategori.html">Sport</a>
             <a class="dropdown-item" href="kategori.html">Technology</a>
-          </div>
+          </div> -->
         </li>
       </ul>
     </div>
   </div>
 </nav>
 <!-- navigasi -->
+
 
 <!-- content -->
 <main role="main">
@@ -106,93 +108,7 @@
     <!-- tumbnail -->
     <div class="col-md-12">
       <div class="row">
-    
-        <div class="col-md-9">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-3 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-danger">Sport</strong>
-                   <h3 class="mb-0">Post title</h3>
-                  <div class="mb-2 text-muted" style="font-size:9pt">March 11</div>
-                  <p class="card-text mb-10" style="font-size:11pt">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="btn btn-outline-dark stretched-link" href="berita-lengkap.html" style="font-size: 10pt;">Read More..</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" src="assets/images/bgSport.jpg" alt="" width="150" height="265">
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-3 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-primary">Technology</strong>
-                  <h3 class="mb-0">Post title</h3>
-                  <div class="mb-2 text-muted" style="font-size:9pt">February 15</div>
-                  <p class="mb-10" style="font-size:11pt">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="btn btn-outline-dark stretched-link" href="berita-lengkap.html" style="font-size: 10pt;">Read More..</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" src="assets/images/bgTech.jpg" alt="" width="150" height="265">
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-3 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-primary">Technology</strong>
-                  <h3 class="mb-0">Post title</h3>
-                  <div class="mb-2 text-muted" style="font-size:9pt">January 20</div>
-                  <p class="mb-10" style="font-size:11pt">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="btn btn-outline-dark stretched-link" href="berita-lengkap.html" style="font-size: 10pt;">Read More..</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" src="assets/images/bgTech.jpg" alt="" width="150" height="265">
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-3 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-success">Entertainment</strong>
-                  <h3 class="mb-0">Post title</h3>
-                  <div class="mb-2 text-muted" style="font-size:9pt">Desember 17</div>
-                  <p class="mb-10" style="font-size:11pt">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="btn btn-outline-dark stretched-link" href="berita-lengkap.html" style="font-size: 10pt;">Read More..</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" src="assets/images/bgEnt.jpg" alt="" width="150" height="265">
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-3 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-success">Entertainment</strong>
-                  <h3 class="mb-0">Post title</h3>
-                  <div class="mb-2 text-muted" style="font-size:9pt">November 18</div>
-                  <p class="mb-10" style="font-size:11pt">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="btn btn-outline-dark stretched-link" href="berita-lengkap.html" style="font-size: 10pt;">Read More..</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" src="assets/images/bgEnt.jpg" alt="" width="150" height="265">
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-3 d-flex flex-column position-static">
-                  <strong class="d-inline-block mb-2 text-danger">Sport</strong>
-                  <h3 class="mb-0">Post title</h3>
-                  <div class="mb-2 text-muted" style="font-size:9pt">October 12</div>
-                  <p class="mb-10" style="font-size:11pt">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                  <a class="btn btn-outline-dark stretched-link" href="berita-lengkap.html" style="font-size: 10pt;">Read More..</a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                  <img class="bd-placeholder-img" src="assets/images/bgSport.jpg" alt="" width="150" height="265">
-                </div>
-              </div>
-            </div>
+          <div class="row" id="isi-data">
             <div class="col-md-12">
               <hr>
               <nav align="center" aria-label="Page navigation example">
@@ -211,27 +127,6 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="row">
-            <div class="p-4 mb-3 bg-light rounded" style="width:100%">
-              <h4 class="font-weight-bold">Archives</h4>
-              <ol class="list-unstyled mb-10">
-                <li><a href="#">March 2020</a></li>
-                <li><a href="#">February 2020</a></li>
-                <li><a href="#">January 2020</a></li>
-                <li><a href="#">December 2019</a></li>
-                <li><a href="#">November 2019</a></li>
-                <li><a href="#">October 2019</a></li>
-                <li><a href="#">September 2019</a></li>
-                <li><a href="#">August 2019</a></li>
-                <li><a href="#">July 2019</a></li>
-                <li><a href="#">June 2019</a></li>
-                <li><a href="#">May 2019</a></li>
-                <li><a href="#">April 2019</a></li>
-              </ol>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div> <!-- /container -->
@@ -245,3 +140,4 @@
 
 <script src="assets/js/jquery-3.4.1.slim.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="assets/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+<script src="app.js"></script>
